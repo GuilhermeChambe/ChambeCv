@@ -7,7 +7,7 @@
 
 
 .background{
-    background-image: url(rou.jpg);
+    background-image: url(IMG/rou.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -20,14 +20,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 37px;
+    padding: 30px;
     padding-left: 3%;
     padding-right: 2%;
-    background-color: #f9004d;
+    background-color: #f9004dd4;
     position: fixed;
     width: 100%;
     z-index: 1;
-    box-shadow: 5xp 5px 1px  #fff;
+    box-shadow: 5xp 5px 1px #fff;
 }
 .logo{
     color: #fff;
@@ -84,7 +84,7 @@ nav ul li a:hover{
 }
 
 .Main span{
-    color: #ffffff;
+    color: #f9004d;
 }
 
 h1{
@@ -117,8 +117,14 @@ h3{
 .background-color-Sobre img{
     width: 430px;
     height: auto;
+    transition: 2s ease-in-out;
+
 }
 
+}
+.background-color-Sobre :hover{
+    transform: scale(1.1);
+}
 .Text-sobre{
     width: 550px;
   }
@@ -144,7 +150,10 @@ h3{
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
+    
 }
+
+
 
 .Text-sobre p{
     color: rgb(255, 255, 255);
@@ -195,13 +204,18 @@ button:hover{
 }
 .Card {
     background: #ffffff;
-    height: 450px;
+    height: 385px;
     width: 381px;
     border-radius: 14px;
     margin: 20px;
+    padding: 0px 20px;
     position: relative;
     overflow: hidden;
     text-align: center;
+    transition: 2s ease-in-out;
+}
+.Card:hover{
+    transform: scale(1.1);
 }
 
 .Card i{
@@ -292,6 +306,7 @@ footer p{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
 }
 .Redes-sociais a:hover{
     transform: scale(1.2);
